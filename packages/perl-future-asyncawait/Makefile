@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=perl-future-asyncawait
 PKG_VERSION:=0.70
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_NAME:=Future-AsyncAwait
 PKG_SOURCE_URL:=https://cpan.metacpan.org/authors/id/P/PE/PEVANS
@@ -25,7 +25,7 @@ define Package/perl-future-asyncawait
   CATEGORY:=Languages
   TITLE:=Deferred subroutine syntax for futures in Perl
   URL:=https://metacpan.org/pod/Future::AsyncAwait
-  DEPENDS:=perl +perl-future +perl-xs-parse-keyword +perl-xs-parse-sublike +perlbase-xsloader
+  DEPENDS:=perl +perl-future +perl-xs-parse-keyword +perl-xs-parse-sublike +perlbase-xsloader +perlbase-scalar
 endef
 
 define Build/Configure
