@@ -17,7 +17,7 @@ $ opkg update
 ## Supporting platforms and packages
 
 * OpenWrt 24.10
-  * [mipsel_24kc](https://jw2013.github.io/openwrt-packages/24.10/mipsel_24kc)
+  * [mipsel_24kc](https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a53)
 
 ## Packages
 
