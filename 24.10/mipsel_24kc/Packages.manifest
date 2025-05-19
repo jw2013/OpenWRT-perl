@@ -1,0 +1,198 @@
+Package: mbpoll
+Version: 1.5.2-r1
+Depends: libc, libmodbus
+Source: /home/jens/GIT/openwrt-packages/packages/mbpoll
+SourceName: mbpoll
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1746658799
+URL: https://github.com/epsilonrt/mbpoll
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: mbpoll_1.5.2-r1_mipsel_24kc.ipk
+Size: 11487
+SHA256sum: 768586d531846c2a255bedbd90f09621d14528c8f1ce269d2fa705f766bd4cde
+Description:  mbpoll is a command line utility to communicate with ModBus slave (RTU or TCP)
+
+Package: perl-class-inspector
+Version: 1.36.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-base
+Source: /home/jens/GIT/openwrt-packages/packages/perl-class-inspector
+SourceName: perl-class-inspector
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/Class::Inspector
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 20480
+Filename: perl-class-inspector_1.36.5.40-r1_mipsel_24kc.ipk
+Size: 4242
+SHA256sum: a14fecf84366e9a30eb4cdf84f625586d813b9b9706b8c66aea68a76eeece21b
+Description:  Class::Inspector - Get information about a class and its structure [Perl]
+
+Package: perl-file-sharedir
+Version: 1.118.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-file, perl-class-inspector
+Source: /home/jens/GIT/openwrt-packages/packages/perl-file-sharedir
+SourceName: perl-file-sharedir
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/File::ShareDir
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 20480
+Filename: perl-file-sharedir_1.118.5.40-r1_mipsel_24kc.ipk
+Size: 3188
+SHA256sum: a6df7d30b1977d2393afbf80139ecd03d5270128da1c54a37af0746954065075
+Description:  File::ShareDir - Locate per-dist and per-module shared files [Perl]
+
+Package: perl-future-asyncawait
+Version: 0.70.5.40-r2
+Depends: libc, perl, perl-future, perl-xs-parse-keyword, perl-xs-parse-sublike, perlbase-xsloader, perlbase-scalar
+Source: /home/jens/GIT/openwrt-packages/packages/perl-future-asyncawait
+SourceName: perl-future-asyncawait
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1746472092
+URL: https://metacpan.org/pod/Future::AsyncAwait
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: perl-future-asyncawait_0.70.5.40-r2_mipsel_24kc.ipk
+Size: 20083
+SHA256sum: bec4390860f4e327e712ea61b97f275c0d3b29b1be615392db13b8864ae7aa16
+Description:  Deferred subroutine syntax for futures in Perl
+
+Package: perl-future
+Version: 0.51.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-b, perlbase-time, perlbase-list
+Source: /home/jens/GIT/openwrt-packages/packages/perl-future
+SourceName: perl-future
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/Future
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 51200
+Filename: perl-future_0.51.5.40-r1_mipsel_24kc.ipk
+Size: 10528
+SHA256sum: ce761252be2360b644249a2bcabca55febe86f86cc974ffe3166a53cd3f62104
+Description:  Future - represent an operation awaiting completion in Perl
+
+Package: perl-io-async
+Version: 0.804.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-io, perlbase-list, perlbase-socket, perlbase-storable, perlbase-time, perlbase-encode, perlbase-experimental, perl-future, perl-struct-dumb
+Source: /home/jens/GIT/openwrt-packages/packages/perl-io-async
+SourceName: perl-io-async
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/Net::SSLeay
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 266240
+Filename: perl-io-async_0.804.5.40-r1_mipsel_24kc.ipk
+Size: 54181
+SHA256sum: 9bbc0453b8415c741cfa09d2b944b0a10f14cecb7dbed815ddbb7e54226fdad4
+Description:  Asynchronous event-driven programming for Perl
+
+Package: perl-io-socket-ssl
+Version: 2.089.5.40-r1
+Depends: libc, perl, perlbase-autoloader, perlbase-io, perlbase-list, perl-net-ssleay
+Source: /home/jens/GIT/openwrt-packages/packages/perl-io-socket-ssl
+SourceName: perl-io-socket-ssl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/Net::SSLeay
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 471040
+Filename: perl-io-socket-ssl_2.089.5.40-r1_mipsel_24kc.ipk
+Size: 126987
+SHA256sum: 2d1ed5da747a3bd9d4196fb22ea7e7ea857838a9f1165299fbe3c1c0a2cde04b
+Description:  Perl SSL sockets with IO::Socket interface
+
+Package: perl-net-ssleay
+Version: 1.94.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-mime, libopenssl3, zlib
+Source: /home/jens/GIT/openwrt-packages/packages/perl-net-ssleay
+SourceName: perl-net-ssleay
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/Net::SSLeay
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 645120
+Filename: perl-net-ssleay_1.94.5.40-r1_mipsel_24kc.ipk
+Size: 121407
+SHA256sum: df5bddef0b455d0b8d0a1533c5ca311a7172662d2d8ecf168aea70ffe84ac71d
+Description:  Perl bindings for OpenSSL and LibreSSL
+
+Package: perl-struct-dumb
+Version: 0.14.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-scalar
+Source: /home/jens/GIT/openwrt-packages/packages/perl-struct-dumb
+SourceName: perl-struct-dumb
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/Struct::Dumb
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 20480
+Filename: perl-struct-dumb_0.14.5.40-r1_mipsel_24kc.ipk
+Size: 3191
+SHA256sum: b3a21605078655bdf93c0f9e5f7ddd6aa106f5239ffcb12de8567a75e51a8546
+Description:  Make simple lightweight record-like structures for Perl
+
+Package: perl-xs-parse-keyword
+Version: 0.48.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+Source: /home/jens/GIT/openwrt-packages/packages/perl-xs-parse-keyword
+SourceName: perl-xs-parse-keyword
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/XS::Parse::Keyword
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 92160
+Filename: perl-xs-parse-keyword_0.48.5.40-r1_mipsel_24kc.ipk
+Size: 20026
+SHA256sum: bc6e738218b68cb5c4c61b248a2cac91e9a64f9cc52159c4d04db3f8bc4dd557
+Description:  Perl XS functions to assist in parsing keyword syntax
+
+Package: perl-xs-parse-sublike
+Version: 0.37.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+Source: /home/jens/GIT/openwrt-packages/packages/perl-xs-parse-sublike
+SourceName: perl-xs-parse-sublike
+License: GPL-1.0-or-later Artistic-1.0-Perl
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1745841558
+URL: https://metacpan.org/pod/XS::Parse::Sublike
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: perl-xs-parse-sublike_0.37.5.40-r1_mipsel_24kc.ipk
+Size: 18403
+SHA256sum: b88a57efb30b34599819b1d5d5f393907c2c22246c8b358374caf995d1ee321b
+Description:  Perl XS functions to assist in parsing sub-like syntax
+
