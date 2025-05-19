@@ -38,8 +38,8 @@ $ opkg update
   * [aarch64_cortex-a76](https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a76) (Raspberry Pi 5*)
   * [aarch64_cortex-a72](https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a72) (Raspberry Pi 4*)
   * [aarch64_cortex-a53](https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a53) (Raspberry Pi 3*)
-  * [mipsel_24kc](https://jw2013.github.io/openwrt-packages/24.10/mipsel_24kc)
   * [x86_64](https://jw2013.github.io/openwrt-packages/24.10/x86_64)
+  * [mipsel_24kc](https://jw2013.github.io/openwrt-packages/24.10/mipsel_24kc)
 
 
 ## Packages
@@ -55,4 +55,10 @@ $ opkg update
 - perl-struct-dumb
 - perl-xs-parse-keyword
 - perl-xs-parse-sublike
+
+
+## Sources
+
+The definitions (Makefiles) for these OpenWrt packages can be found [here](https://github.com/jw2013/openwrt-packages/tree/master/packages).
+
 
