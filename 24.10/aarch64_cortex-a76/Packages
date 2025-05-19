@@ -1,0 +1,143 @@
+Package: mbpoll
+Version: 1.5.2-r1
+Depends: libc, libmodbus
+License: GPL-3.0
+Section: utils
+URL: https://github.com/epsilonrt/mbpoll
+Architecture: aarch64_cortex-a76
+Installed-Size: 71680
+Filename: mbpoll_1.5.2-r1_aarch64_cortex-a76.ipk
+Size: 13533
+SHA256sum: 295011959421f89ba566359e54cc7c9e3d2cc117fbc6d16034eb03ed057225f5
+Description:  mbpoll is a command line utility to communicate with ModBus slave (RTU or TCP)
+
+Package: perl-class-inspector
+Version: 1.36.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-base
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/Class::Inspector
+Architecture: aarch64_cortex-a76
+Installed-Size: 20480
+Filename: perl-class-inspector_1.36.5.40-r1_aarch64_cortex-a76.ipk
+Size: 4241
+SHA256sum: e4dde80139355cc48ceb0e41a5f7765c2a810f39dd16bb3680559f2a5eeec2a4
+Description:  Class::Inspector - Get information about a class and its structure [Perl]
+
+Package: perl-file-sharedir
+Version: 1.118.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-file, perl-class-inspector
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/File::ShareDir
+Architecture: aarch64_cortex-a76
+Installed-Size: 20480
+Filename: perl-file-sharedir_1.118.5.40-r1_aarch64_cortex-a76.ipk
+Size: 3190
+SHA256sum: a027f778172b72cc2d24bc9868b425a82e7d024b441ac8cea56f5492c9c07d25
+Description:  File::ShareDir - Locate per-dist and per-module shared files [Perl]
+
+Package: perl-future-asyncawait
+Version: 0.70.5.40-r2
+Depends: libc, perl, perl-future, perl-xs-parse-keyword, perl-xs-parse-sublike, perlbase-xsloader, perlbase-scalar
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/Future::AsyncAwait
+Architecture: aarch64_cortex-a76
+Installed-Size: 81920
+Filename: perl-future-asyncawait_0.70.5.40-r2_aarch64_cortex-a76.ipk
+Size: 21860
+SHA256sum: 5fc5948b96b134cebbecccf1d644d08e66deb32604cc93b5921b63c218afb83b
+Description:  Deferred subroutine syntax for futures in Perl
+
+Package: perl-future
+Version: 0.51.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-b, perlbase-time, perlbase-list
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/Future
+Architecture: aarch64_cortex-a76
+Installed-Size: 51200
+Filename: perl-future_0.51.5.40-r1_aarch64_cortex-a76.ipk
+Size: 10520
+SHA256sum: 56f4798ee388b4a953baa3da57281e2e78b448f8d7a9a44fee68f8243f2f5a1c
+Description:  Future - represent an operation awaiting completion in Perl
+
+Package: perl-io-async
+Version: 0.804.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-io, perlbase-list, perlbase-socket, perlbase-storable, perlbase-time, perlbase-encode, perlbase-experimental, perl-future, perl-struct-dumb
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/Net::SSLeay
+Architecture: aarch64_cortex-a76
+Installed-Size: 266240
+Filename: perl-io-async_0.804.5.40-r1_aarch64_cortex-a76.ipk
+Size: 54173
+SHA256sum: 97fe6fd871373a41e8ecee3afe5b69309bd3f6534efc54c88f70ea58a14d6ad0
+Description:  Asynchronous event-driven programming for Perl
+
+Package: perl-io-socket-ssl
+Version: 2.089.5.40-r1
+Depends: libc, perl, perlbase-autoloader, perlbase-io, perlbase-list, perl-net-ssleay
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/Net::SSLeay
+Architecture: aarch64_cortex-a76
+Installed-Size: 471040
+Filename: perl-io-socket-ssl_2.089.5.40-r1_aarch64_cortex-a76.ipk
+Size: 126987
+SHA256sum: c38cdb1d3faac09729a5df0e8bed6aeb2d3068c8f41ebfb88c4c7fe1d3873acb
+Description:  Perl SSL sockets with IO::Socket interface
+
+Package: perl-net-ssleay
+Version: 1.94.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-mime, libopenssl3, zlib
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/Net::SSLeay
+Architecture: aarch64_cortex-a76
+Installed-Size: 778240
+Filename: perl-net-ssleay_1.94.5.40-r1_aarch64_cortex-a76.ipk
+Size: 153428
+SHA256sum: a3eb6cf4ddb4bb13ab47c4f90d61ad12852c26ea5a7729be257b1dd3ded2d378
+Description:  Perl bindings for OpenSSL and LibreSSL
+
+Package: perl-struct-dumb
+Version: 0.14.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-scalar
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/Struct::Dumb
+Architecture: aarch64_cortex-a76
+Installed-Size: 20480
+Filename: perl-struct-dumb_0.14.5.40-r1_aarch64_cortex-a76.ipk
+Size: 3188
+SHA256sum: 3d1ecad034cdf5792b33393c5cbe385fdb88180a1cbea01914703f6711ef93e8
+Description:  Make simple lightweight record-like structures for Perl
+
+Package: perl-xs-parse-keyword
+Version: 0.48.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/XS::Parse::Keyword
+Architecture: aarch64_cortex-a76
+Installed-Size: 92160
+Filename: perl-xs-parse-keyword_0.48.5.40-r1_aarch64_cortex-a76.ipk
+Size: 22356
+SHA256sum: 2113f835f7a9a6d69af0852002d031eb944a515a14eb8616e599b455b63ca891
+Description:  Perl XS functions to assist in parsing keyword syntax
+
+Package: perl-xs-parse-sublike
+Version: 0.37.5.40-r1
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+URL: https://metacpan.org/pod/XS::Parse::Sublike
+Architecture: aarch64_cortex-a76
+Installed-Size: 81920
+Filename: perl-xs-parse-sublike_0.37.5.40-r1_aarch64_cortex-a76.ipk
+Size: 20072
+SHA256sum: 4bad330ff8cfc0429952989ea5910d2cf0ce7cb63a9981a3a6f48fb5f30e0ee5
+Description:  Perl XS functions to assist in parsing sub-like syntax
+
