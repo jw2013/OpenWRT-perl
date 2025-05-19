@@ -1,3 +1,21 @@
+Package: mbpoll
+Version: 1.5.2-r1
+Depends: libc, libmodbus
+Source: feeds/jw2013/packages/mbpoll
+SourceName: mbpoll
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1746658799
+URL: https://github.com/epsilonrt/mbpoll
+Maintainer: Jens Wagner <jens@wagner2013.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: mbpoll_1.5.2-r1_aarch64_cortex-a53.ipk
+Size: 13481
+SHA256sum: d8cc157b85f22278fe95e1321ef55965abb76a4d26ba369172389356605c550a
+Description:  mbpoll is a command line utility to communicate with ModBus slave (RTU or TCP)
+
 Package: perl-class-inspector
 Version: 1.36.5.40-r1
 Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-base
@@ -6,14 +24,14 @@ SourceName: perl-class-inspector
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/Class::Inspector
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: perl-class-inspector_1.36.5.40-r1_aarch64_cortex-a53.ipk
-Size: 4238
-SHA256sum: f2ba00baf25cc24805ec69bd986d0424f397ba8c84829c23a6d3faca48b45686
+Size: 4242
+SHA256sum: 26468811acfb57d285f97011c858f834920c133886dae738186681a4c2235902
 Description:  Class::Inspector - Get information about a class and its structure [Perl]
 
 Package: perl-file-sharedir
@@ -24,32 +42,32 @@ SourceName: perl-file-sharedir
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/File::ShareDir
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: perl-file-sharedir_1.118.5.40-r1_aarch64_cortex-a53.ipk
-Size: 3185
-SHA256sum: 760e289db269ffa73f12baad709c1e7de70b2bd3ac5c7906f43b1245cd8898a6
+Size: 3184
+SHA256sum: 994368f141d7dfdbb8e312de52ba5a17ffcc67878f1b4e97f4a746d5b90c5bd7
 Description:  File::ShareDir - Locate per-dist and per-module shared files [Perl]
 
 Package: perl-future-asyncawait
-Version: 0.70.5.40-r1
-Depends: libc, perl, perl-future, perl-xs-parse-keyword, perl-xs-parse-sublike, perlbase-xsloader
+Version: 0.70.5.40-r2
+Depends: libc, perl, perl-future, perl-xs-parse-keyword, perl-xs-parse-sublike, perlbase-xsloader, perlbase-scalar
 Source: feeds/jw2013/packages/perl-future-asyncawait
 SourceName: perl-future-asyncawait
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/Future::AsyncAwait
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: perl-future-asyncawait_0.70.5.40-r1_aarch64_cortex-a53.ipk
-Size: 22009
-SHA256sum: 32279eca7240fdff7a838ea45d36ea803b9c2ca3c4adf20afdd2fa2025b0b14e
+Filename: perl-future-asyncawait_0.70.5.40-r2_aarch64_cortex-a53.ipk
+Size: 22024
+SHA256sum: 20c36c9ee07471d84a9c210a29441c69425796159770a8376c9f3042b17452e4
 Description:  Deferred subroutine syntax for futures in Perl
 
 Package: perl-future
@@ -60,14 +78,14 @@ SourceName: perl-future
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/Future
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 51200
 Filename: perl-future_0.51.5.40-r1_aarch64_cortex-a53.ipk
-Size: 10517
-SHA256sum: d59008a3b71c264afcb1c9590afa4cd3dfbcad762851caf1c179aff87f7ea147
+Size: 10520
+SHA256sum: bb29f8f0cdeee0197ec6238b1e359adf0c9803830b464dc66be3505c25cb1223
 Description:  Future - represent an operation awaiting completion in Perl
 
 Package: perl-io-async
@@ -78,14 +96,14 @@ SourceName: perl-io-async
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/Net::SSLeay
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 266240
 Filename: perl-io-async_0.804.5.40-r1_aarch64_cortex-a53.ipk
-Size: 54174
-SHA256sum: 7c6ec03810d2fb5aa21c11466a8f956dd865b803760afdd3e524dc217d7046e1
+Size: 54178
+SHA256sum: d09d14d04dba7f4699bf4b324be7129b6964284c5ed911d2c5d44d0ccdd7e847
 Description:  Asynchronous event-driven programming for Perl
 
 Package: perl-io-socket-ssl
@@ -96,14 +114,14 @@ SourceName: perl-io-socket-ssl
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/Net::SSLeay
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 471040
 Filename: perl-io-socket-ssl_2.089.5.40-r1_aarch64_cortex-a53.ipk
-Size: 126981
-SHA256sum: ffbe20cc5f83273abc1ff1b851841cc54b6097779096bdeebd0a2a13c70ba228
+Size: 126988
+SHA256sum: d044450c69ddb42e0d595a2a3a7e1dd82972e6d6d0d371afa024cb860e2a2a51
 Description:  Perl SSL sockets with IO::Socket interface
 
 Package: perl-net-ssleay
@@ -114,14 +132,14 @@ SourceName: perl-net-ssleay
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/Net::SSLeay
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 778240
 Filename: perl-net-ssleay_1.94.5.40-r1_aarch64_cortex-a53.ipk
-Size: 153140
-SHA256sum: 0278a1bfc63b6fea0e4ab747ff07e63baf7bff639f840093680843fff1bbf81e
+Size: 153138
+SHA256sum: 252f4dadb1f74891c32cfa1cfabc30a9f301ace869d83067262ed8498036a988
 Description:  Perl bindings for OpenSSL and LibreSSL
 
 Package: perl-struct-dumb
@@ -132,14 +150,14 @@ SourceName: perl-struct-dumb
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/Struct::Dumb
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: perl-struct-dumb_0.14.5.40-r1_aarch64_cortex-a53.ipk
 Size: 3184
-SHA256sum: 1eecaeb03b6aa48d1e7c0e4c757ac8c34b2cbe74691bd4dd31f508c37033db4c
+SHA256sum: 9470ad8ff6d94bf2847ac52d6504f30a283660778c057c065e70290cb45ce4cd
 Description:  Make simple lightweight record-like structures for Perl
 
 Package: perl-xs-parse-keyword
@@ -150,14 +168,14 @@ SourceName: perl-xs-parse-keyword
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/XS::Parse::Keyword
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
 Filename: perl-xs-parse-keyword_0.48.5.40-r1_aarch64_cortex-a53.ipk
-Size: 22336
-SHA256sum: aa46b5791744525cf8b772a44d77d658e388d03433b1d581cd9510eb4498d60d
+Size: 22337
+SHA256sum: 68f3e74766a547053c3653c9b0cf75ca0f79d437dac01291d1a2ca5267057fc6
 Description:  Perl XS functions to assist in parsing keyword syntax
 
 Package: perl-xs-parse-sublike
@@ -168,13 +186,13 @@ SourceName: perl-xs-parse-sublike
 License: GPL-1.0-or-later Artistic-1.0-Perl
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1745841558
+SourceDateEpoch: 1746658676
 URL: https://metacpan.org/pod/XS::Parse::Sublike
 Maintainer: Jens Wagner <jens@wagner2013.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: perl-xs-parse-sublike_0.37.5.40-r1_aarch64_cortex-a53.ipk
-Size: 20064
-SHA256sum: 90223ccc40d15c10f39f89c1d5be79d9ac0d2eaa08c2f3fe38a557c6245ba299
+Size: 20076
+SHA256sum: b6e756c7ef3c426bca361616e97c0d120e93e6ee5c151d9d1ac0ab03cf26b55c
 Description:  Perl XS functions to assist in parsing sub-like syntax
 
