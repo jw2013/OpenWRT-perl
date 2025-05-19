@@ -13,11 +13,17 @@ $ opkg-key add public.key
 
 # One of the following
 
+# aarch64_cortex-a76 (Raspberry Pi 5):
+$ echo 'src/gz pkgs-by-jw2013 https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a76' >> /etc/opkg/customfeeds.conf
+
 # aarch64_cortex-a72 (Raspberry Pi 4):
 $ echo 'src/gz pkgs-by-jw2013 https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a72' >> /etc/opkg/customfeeds.conf
 
 # aarch64_cortex-a53 (Raspberry Pi 3):
 $ echo 'src/gz pkgs-by-jw2013 https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a53' >> /etc/opkg/customfeeds.conf
+
+# x86_64:
+$ echo 'src/gz pkgs-by-jw2013 https://jw2013.github.io/openwrt-packages/24.10/x86_64' >> /etc/opkg/customfeeds.conf
 
 # mipsel_24kc:
 $ echo 'src/gz pkgs-by-jw2013 https://jw2013.github.io/openwrt-packages/24.10/mipsel_24kc' >> /etc/opkg/customfeeds.conf
@@ -29,9 +35,11 @@ $ opkg update
 ## Supporting platforms and packages
 
 * OpenWrt 24.10
+  * [aarch64_cortex-a76](https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a76) (Raspberry Pi 5*)
   * [aarch64_cortex-a72](https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a72) (Raspberry Pi 4*)
   * [aarch64_cortex-a53](https://jw2013.github.io/openwrt-packages/24.10/aarch64_cortex-a53) (Raspberry Pi 3*)
   * [mipsel_24kc](https://jw2013.github.io/openwrt-packages/24.10/mipsel_24kc)
+  * [x86_64](https://jw2013.github.io/openwrt-packages/24.10/x86_64)
 
 
 ## Packages
