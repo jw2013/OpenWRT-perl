@@ -1,5 +1,13 @@
 require 5.014;
 use ExtUtils::MakeMaker;
+if ( ! -e "Keyword.xs" ) {
+  die $! unless open SRC, "<lib/XS/Parse/Keyword.xs";
+  my $xs = join "", <SRC>;
+  close SRC;
+  die $! unless open DST, ">Keyword.xs";
+  print DST $xs;
+  close DST;
+}
 WriteMakefile
 (
   'NAME' => 'XS::Parse::Keyword',
