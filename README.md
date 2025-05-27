@@ -59,6 +59,6 @@ $ opkg update
 
 ## Sources
 
-The definitions (Makefiles) for these OpenWrt packages can be found [here](https://github.com/jw2013/openwrt-packages/tree/master/packages).
+The definitions (Makefiles) for these OpenWrt packages can be found [here](https://github.com/jw2013/openwrt-packages/tree/master/).
 
 
