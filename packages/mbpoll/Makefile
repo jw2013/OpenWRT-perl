@@ -10,8 +10,6 @@ PKG_SOURCE:=v$(PKG_VERSION).tar.gz
 PKG_HASH:=7d960cd4459b5f7c2412abc51aba93a20b6114fd75d1de412b1e540cfb63bfec
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_NAME)-$(PKG_VERSION)
 
-PKG_BUILD_DEPENDS:=libmodbus
-
 PKG_MAINTAINER:=Jens Wagner <jens@wagner2013.de>
 PKG_LICENSE:=GPL-3.0
 PKG_LICENSE_FILES:=LICENSE
@@ -24,7 +22,7 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/mbpoll
   SECTION:=utils
   CATEGORY:=Utilities
-  TITLE:=mbpoll is a command line utility to communicate with ModBus slave (RTU or TCP)
+  TITLE:=Command line utility to communicate with Modbus slaves (RTU/TCP)
   URL:=https://github.com/epsilonrt/mbpoll
   DEPENDS:=+libmodbus
 endef
